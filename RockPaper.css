@@ -11,14 +11,14 @@ header{
 }
 
 .icon-class{
-    border: 3px solid white;
+    border: 5px solid white;
     padding: 20px 20px;
-    margin: 50px 50px;
+    margin: 55px 55px;
     cursor: pointer;
 }
 
 .icon-class:hover{
-    background-color: red;
+    background-color: yellowgreen;
     transition: 0.3s;
 }
 .scis-rotate{
@@ -39,16 +39,13 @@ header{
     display: inline-block;
 }
 @-webkit-keyframes fadeColor {
-    from {background-color: red;}
-    to {background-color: black;}
-
-    from {background-color: red;}
+    from {background-color: green;}
     to {background-color: black;}
 }
 
 
 .fade{
-    -webkit-animation: fadeColor 4s infinite;
+    -webkit-animation: fadeColor 2s infinite;
 }
 .finalResult{
     text-align: center;
@@ -56,5 +53,16 @@ header{
 
 .finalResult h3{
     color: white;
+    display: inline;
+}
+
+.feedback{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.feedback h2{
+    ;
+    color: green;
     display: inline;
 }

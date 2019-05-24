@@ -63,7 +63,9 @@ function userClick(n) {
 function updateCounts(n, win) {
     if (win) {
         document.getElementById('user-count').innerText = n.toString();
+        document.getElementById('name').innerText = 'User Wins';
     } else {
         document.getElementById('comp-count').innerText = n.toString();
+        document.getElementById('name').innerText = 'Computer Wins';
     }
 }
