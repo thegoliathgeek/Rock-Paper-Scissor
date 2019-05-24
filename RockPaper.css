@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+#result{
+    text-align: center;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+.icon-class{
+    border: 3px solid white;
+    padding: 20px 20px;
+    margin: 50px 50px;
+    cursor: pointer;
+}
+
+.icon-class:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+.scis-rotate{
+    transform: rotate(90deg);
+}
+
+.scoreclass{
+    color: white;
+    border: 4px solid red;
+    font-size: 25px;
+}
+
+.parent-scoreclass{
+    text-align: center;
+}
+
+.scoreclass p{
+    display: inline-block;
+}
+@-webkit-keyframes fadeColor {
+    from {background-color: red;}
+    to {background-color: black;}
+
+    from {background-color: red;}
+    to {background-color: black;}
+}
+
+
+.fade{
+    -webkit-animation: fadeColor 4s infinite;
+}
+.finalResult{
+    text-align: center;
+}
+
+.finalResult h3{
+    color: white;
+    display: inline;
+}

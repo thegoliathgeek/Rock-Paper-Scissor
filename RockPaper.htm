@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Game
+        </title>
+        <link rel="stylesheet" href="RockPaper.css">
+    </head>
+    <body>
+
+    <header>
+        <h1>Rock Paper Scissor</h1>
+    </header>
+
+    <div class="parent-scoreclass">
+        <div class="scoreclass" id="score">
+        <p><strong class="fade">Comp</strong></p>
+        <p id="comp-count">0</p>
+        <p>:</p>
+            <p><strong class="fade">User</strong></p>
+        <p id="user-count">0</p>
+    </div>
+        </div>
+
+    <div  id="result">
+        <img class="icon-class" src="images/rock.png" alt="Not Available" height="50" width="50" onclick="userClick(0)">
+        <img class="icon-class" src="images/paper.png" alt="Not Available" height="50" width="50" onclick="userClick(1)">
+        <img class="icon-class scis-rotate" src="images/scissor.png" alt="Not Available" height="50" width="50" onclick="userClick(2)">
+    </div>
+
+
+    <div class="finalResult">
+        <h3>Comp = </h3>
+        <h3 id="comp-selected">NULL</h3>
+        <h3>----------------------</h3>
+        <h3>User = </h3>
+        <h3 id="user-selected">NULL</h3>
+    </div>
+    <script src="RockPaper.js"></script>
+    </body>
+</html>
