@@ -5,8 +5,9 @@ var compCount = 0;
 
 function userClick(n) {
     const compChoice = Math.floor(Math.random() * 3);
-
+    document.getElementById('name').innerText = 'TIE';
     if (n === compChoice) {  //Tie
+
         if( n === 0){
             document.getElementById('user-selected').innerText = 'Rock';
             document.getElementById('comp-selected').innerText = 'Rock';
